@@ -1,0 +1,1 @@
+export const baseUrl = 'https://rsreenivas2001.github.io/Confusion/';
