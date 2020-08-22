@@ -64,12 +64,12 @@ class Main extends Component {
         {/*<Menu dishes={this.props.dishes} onClick={(dishId) => this.onDishSelect(dishId)} />
         <DishDetail dish={this.props.dishes.filter((dish) => dish.id === this.props.selectedDish)[0]} />*/}
         <Switch>
-              <Route path='/home' component={HomePage} />
-              <Route exact path='/menu' component={() => <Menu dishes={this.props.dishes} />} />
-              <Route path='/menu/:dishId' component={DishWithId} />
-              <Route exact path="/contactus" component={Contact} />;
-              <Route exact path="/aboutus" component={() => <About leaders={this.props.leaders}  /> } />
-              <Redirect to="/home" />
+              <Route path='/Confusion/home' component={HomePage} />
+              <Route exact path='/Confusion/menu' component={() => <Menu dishes={this.props.dishes} />} />
+              <Route path='/Confusion/menu/:dishId' component={DishWithId} />
+              <Route exact path="/Confusion/contactus" component={Contact} />;
+              <Route exact path="/Confusion/aboutus" component={() => <About leaders={this.props.leaders}  /> } />
+              <Redirect to="/Confusion/home" />
           </Switch>
         <Footer />
       </div>
